@@ -45,7 +45,7 @@ hr {
 
 .sec1 {
   text-align: center;
-  font-family: Calibri Light;
+  font-family: 'Calibri Light';
 
 }
 
@@ -62,4 +62,43 @@ hr {
 }
 .sec1 > h1, h3 {
   margin: 0;
+}
+
+.image1 img {
+  margin: 35px 0;
+  height: 300px;
+  width: 95%;
+  border-radius: 15px;
+}
+
+.box1 {
+  color:inherit;
+  float: left;
+  width: 40%;
+  margin: 0 0 45px 25px;
+}
+
+.box1 h1 {
+  text-align: center;
+  color: #ff80aa;
+  font-family: 'Lucida Handwriting';
+}
+
+.box2 h1 {
+  text-align: center;
+  color: #ff80aa;
+  font-family: 'Lucida Handwriting';
+}
+
+.box1, .box2 p {
+  text-align: left;
+  font-family: 'Calibri Light';
+  padding: 10px 10px 0 10px;
+}
+
+.box2 {
+  color: inherit;
+  float: right;
+  width: 40%;
+  margin: 0 55px 45px 0;
 }
