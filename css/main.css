@@ -1,0 +1,65 @@
+body {
+  background-color: #f4f3f1;
+  width: 100%;
+}
+
+.navigation {
+  display: inline-block;
+}
+
+i {
+  color: #ff80aa;
+}
+
+#title {
+  font-family: 'Lucida Handwriting';
+  letter-spacing: -2px;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+ul {
+  position: absolute;
+  right: 25px;
+  top: 5px;
+}
+
+li {
+  display: inline-block;
+  padding: 0 15px;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+li > a {
+  text-decoration: none;
+  color: #737373;
+}
+
+hr {
+  width: 95%;
+  height: 1px;
+  background-color: #737373
+}
+
+.sec1 {
+  text-align: center;
+  font-family: Calibri Light;
+
+}
+
+#name {
+  color: #ff80aa;
+}
+
+.sec1 h1 {
+  letter-spacing: 2px;
+}
+
+.sec1 h3 {
+  font-size: 16px;
+}
+.sec1 > h1, h3 {
+  margin: 0;
+}
