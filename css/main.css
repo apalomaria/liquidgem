@@ -1,6 +1,7 @@
 body {
   background-color: #f4f3f1;
   width: 100%;
+  height: 80%;
 }
 
 .navigation {
@@ -101,4 +102,63 @@ hr {
   float: right;
   width: 40%;
   margin: 0 55px 45px 0;
+}
+
+.container {
+  width: 100%;
+  margin: 0 25px;
+
+}
+.container > .image {
+  border-radius: 2px;
+}
+div.image {
+  display: inline-block;
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+div.img=hover {
+  border: 1px solid #bbb;
+
+}
+
+div.image img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: left;
+}
+
+div.image a {
+  text-decoration: none;
+  font-family: 'Calibri Light';
+  cursor: pointer;
+  color: #ff80aa;
+}
+
+.header {
+  color: #737373;
+}
+
+#sec2 {
+  position: relative;
+  text-align: center;
+}
+
+#site-footer {
+  width: 99%;
+  display: block;
+  height: 25%;
+  position: absolute;
+  padding: 1rem;
+  background-color: black;
+  color: #ff80aa;
 }
